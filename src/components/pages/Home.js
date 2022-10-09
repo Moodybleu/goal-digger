@@ -34,7 +34,7 @@ export default function Home(){
     })
     return(
         <div>
-            <h1>Welcome to your bucket list</h1>
+            <h1>Welcome to Goal Digger</h1>
             <h2>Most recent goals</h2>
             {goalLink}
 
