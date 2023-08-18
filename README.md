@@ -37,7 +37,7 @@ https://main--gold-digger-bucketlist.netlify.app
 
 | HTTP METHOD (_Verb_) | URL (_Nouns_) | CRUD | Response                                              | Notes |
 | -------------------- | ------------- | ---- | ----------------------------------------------------- | ----- |
-| GET                  | /             | R    | show page of bucketlist items from the bucketlist API |       |
+
 
 ### Users
 
@@ -52,9 +52,10 @@ https://main--gold-digger-bucketlist.netlify.app
 
 | HTTP METHOD (_Verb_) | URL (_Nouns_)  | CRUD | Response                                       | Notes |
 | -------------------- | -------------- | ---- | ---------------------------------------------- | ----- |
-| DELETE               | /goals/:goalId | D    | remove goal from user's in progress bucketlist |       |
 | POST                 | /goals         | C    | create a new goal                              |       |
+| GET                  | /              | R      show page of bucketlist items from the bucketlist API |       |
 | PUT                  | /goals/:goalId | U    | edit a goal                                    |       |
+| DELETE               | /goals/:goalId | D    | remove goal from user's in progress bucketlist |       |
 
 ## User Stories
 

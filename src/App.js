@@ -27,18 +27,16 @@ function App() {
       } else {
         setCurrentUser(null)
       }
-      
     }, []) // happen only once
     // console.log(currentUser)
-
   return (
     <div className="App">
       <BrowserRouter>
         <NavBar currentUser={currentUser} setCurrentUser={setCurrentUser} />
         
         <Routes>
-          <Route path='/' element={<Home 
-          currentUser={currentUser} setCurrentUser={setCurrentUser} />} />
+          <Route path='/' element={<Home
+           currentUser={currentUser} setCurrentUser={setCurrentUser}/>} />
 
           <Route path='/user/new' element={<UserNew
            currentUser={currentUser} setCurrentUser={setCurrentUser} />} />
