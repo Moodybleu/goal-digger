@@ -30,7 +30,7 @@ const handleSubmit = async e =>{
         const decoded = jwt_decode(token)
         // set the user in Apps state to be the decoded token
         setCurrentUser(decoded)
-        // got to user profile page
+        // go to user profile page
         navigate("/")
 
     }catch(err){
@@ -51,7 +51,7 @@ const handleSubmit = async e =>{
         <div>
            <h1> Sign up to create a Bucket List </h1>
             {/* display msg if error occure */}
-            <p> {msg}</p>
+            <p>{msg}</p>
 
             {/* new user form */}
             <form onSubmit={handleSubmit}>
