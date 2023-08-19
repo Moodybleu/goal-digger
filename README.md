@@ -8,7 +8,7 @@ A one stop shop for all your bucket list ideas! Plan your future goals and keep 
 Get inspired by a random bucket list idea or add your own item.
 
 ## Live Link
-https://helpful-dusk-923e50.netlify.app/
+https://main--gold-digger-bucketlist.netlify.app
 
 ## Wireframe
 
