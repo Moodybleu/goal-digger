@@ -57,7 +57,7 @@ export default function GoalNew(){
                         type='text'
                         id='imageUrl'
                         value={form.imageUrl}
-                        placeholder='Add direct URL'
+                        placeholder='Add direct URL or Image Address'
                         onChange={e => setForm ({ ...form, imageUrl: e.target.value})}
                         />
                 </div>
@@ -67,7 +67,7 @@ export default function GoalNew(){
                         type='text'
                         id='note'
                         value={form.note}
-                        placeholder='Thoughts? Ideas? Concerns?'
+                        placeholder='Thoughts? Ideas? Concerns? Things to Remember?'
                         onChange={e => setForm ({ ...form, note: e.target.value})}
                         />
                 </div>

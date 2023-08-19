@@ -36,7 +36,7 @@ export default function NavBar({currentUser, setCurrentUser}) {
     }, [])
    
     console.log('api', api)
-    console.log('content', form.content)
+    // console.log('content', form.content)
         const addGoal = async (e) => {
             // await setForm({...form, content: api})
             e.preventDefault()
